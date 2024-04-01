@@ -1,5 +1,5 @@
 {% set name = "xkcdpass" %}
-{% set version = "1.19.8" %}
+{% set version = "1.19.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xkcdpass-{{ version }}.tar.gz
-  sha256: 30afff4399b83de362a11b26c4768c6cddb1edae12920572d31931baf9d4b9fa
+  sha256: a94f871bda870668e5c65eb84296e939600362df2cc036b91c5ca3815bd292d7
 
 build:
   entry_points:
